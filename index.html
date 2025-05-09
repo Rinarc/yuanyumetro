@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metro City Transit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航 -->
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.svg" alt="Metro City" height="30">
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#routes">线路图</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#schedule">时刻表</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">关于</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首屏大图 -->
+    <header class="hero-section">
+        <div class="hero-content">
+            <h1 class="display-1">Metro City Transit</h1>
+            <p class="lead">智慧出行 • 无缝连接</p>
+        </div>
+    </header>
+
+    <!-- 线路图 -->
+    <section id="routes" class="container py-5">
+        <h2 class="section-title">地铁网络</h2>
+        <div class="metro-map">
+            <img src="img/metro-map.svg" alt="地铁线路图" class="img-fluid">
+        </div>
+    </section>
+
+    <!-- 运营时间 -->
+    <section id="schedule" class="bg-light py-5">
+        <div class="container">
+            <h2 class="section-title">运营时间</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>工作日</h3>
+                    <p>首班车: 5:30 AM<br>末班车: 11:30 PM</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>周末</h3>
+                    <p>首班车: 6:00 AM<br>末班车: 12:00 AM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Metro City Transit. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
